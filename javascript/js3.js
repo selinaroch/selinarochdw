@@ -9,9 +9,6 @@ for (i = 1; i<=ite;) {
     if ( horamed>= 24) {
         n= -1*(24-horamed) 
         horamed= n
-        if (horamed = 0){
-            horamed= 0
-        }
         document.write("La toma ", i, "es a las ", horamed, " horas " + "<br>");
         
         i= i+1
