@@ -33,7 +33,7 @@ header{
 
 .contact{
     padding: .8rem;
-    overflow: hidden;
+    /*overflow: hidden;*/
     color: gray;
 
 }
