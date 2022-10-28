@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+
+body{
+    background-color: #f1f1f1 ;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.form-c{
+    background-color: white;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow:7px 13px 37px rgba(0, 0, 0, .8);
+}
+
+header{
+    width: 100%;
+    background-color: #B695C0;
+    overflow: hidden;
+    color: white;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    padding: 2rem;
+}
+
+
+.contact{
+    padding: .8rem;
+    overflow: hidden;
+    color: gray;
+
+}
+
+.contact label, .contact input, .contact button {
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+
+}
+
+
+.contact label{
+    font-weight: 700;
+
+}
+
+.contact input:not([button]){
+    border: none;
+    border-bottom: 2px solid #B695C0;
+    margin-bottom: 10px;
+    font-size: 20px;
+    outline: none;
+    color: gray;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    background-color: #B695C0;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
