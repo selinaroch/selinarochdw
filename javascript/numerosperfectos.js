@@ -1,5 +1,5 @@
-let numeros = 5;
-let avance = 2
+let numeros = 4;
+let avance = 1;
 let divisores = [];
 let perfectos = [];
 let contador = 1;
