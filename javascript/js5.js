@@ -1,6 +1,7 @@
 
 function operacion(op,numero,numero2) {
  let result = 0;
+
     switch(op){
     case "+":
         result=numero+numero2;
@@ -14,7 +15,9 @@ function operacion(op,numero,numero2) {
     case "/":
         result=numero/numero2;
         break;
-    
+
+
+        
     
 } return result
 }

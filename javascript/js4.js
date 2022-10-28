@@ -70,6 +70,23 @@ function calcular(){
 
 }
 
+function ImagenAleatoria() {
+    let num_imagen  = parseInt(document.getElementById("img_1").value);
+    let imagen      = document.getElementById('img');
+
+    if (num_imagen == 1) {
+        imagen.src = "./Recursos/luna.jpg";
+    } else if (num_imagen == 2) {
+        imagen.src = "./Recursos/sol.jpg";
+    } else if (num_imagen == 3) {
+        imagen.src = "./Recursos/estrellas.jpg";
+    } else if (num_imagen == 4) {
+        imagen.src = "./Recursos/univ.jpg";
+    } else {
+        imagen.src = "./Recursos/univ.jpg";
+    }
+}
+
 
 /* function f1(){}
 
